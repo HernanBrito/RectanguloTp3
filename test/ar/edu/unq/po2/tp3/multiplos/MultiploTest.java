@@ -41,7 +41,7 @@ class MultiploTest {
 	@Test
 	void testMayorMultiploEntre1001y5() {
 	    // No hay múltiplos comunes dentro del rango 0-1000 por ende seria 0
-	    assertEquals(0, multiplo.mayorMultiploHastaMilDe(1001, 5));
+	    assertEquals(-1, multiplo.mayorMultiploHastaMilDe(1001, 5));
 	}
 	
 }

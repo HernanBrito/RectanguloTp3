@@ -6,12 +6,14 @@ public class Multiplo {
 		return (multiplo % num == 0);
 	}
 	
-	public int mayorMultiploHastaMilDe(int x , int y) {
-		int mayorMultiplo = 1000;
-			while(!(esMultiploDe(x , mayorMultiplo) && esMultiploDe(y , mayorMultiplo) )) {
-				mayorMultiplo = mayorMultiplo - 1;
-			}
-		return mayorMultiplo;
+	
+	public int mayorMultiploHastaMilDe(int x, int y) {
+	    for (int i = 1000; i > 0; i--) {
+	        if (esMultiploDe(x , i) && esMultiploDe(y , i)) {
+	            return i;
+	        }
+	    }
+	    return -1; // Si no encontró ningún múltiplo
 	}
 	
 }

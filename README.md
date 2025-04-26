@@ -26,7 +26,7 @@ Este repositorio contiene los ejercicios del Trabajo Práctico 3 de OBJ2-UNQ.
 - [x] Completado  
 - [x] Tests incluidos  
 
-**Descripción:** (Mayor multiplo entre x e y, teniendo como maximo a 1000)  
+**Descripción:** (Mayor multiplo entre x e y, teniendo como maximo a 1000 ...(cambie la forma original en la que habia pensado con un while por un for))  
 
 ---
 
