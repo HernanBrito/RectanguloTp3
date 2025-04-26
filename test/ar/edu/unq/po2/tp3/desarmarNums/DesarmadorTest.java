@@ -36,6 +36,7 @@ class DesarmadorTest {
 		assertEquals(4 , desarmador.cantidadDeDigitosPares(desarmador.getNumber(7)));
 		assertEquals(1 , desarmador.cantidadDeDigitosPares(desarmador.getNumber(0)));
 		assertEquals(0 , desarmador.cantidadDeDigitosPares(desarmador.getNumber(2)));
+		assertEquals(1 , desarmador.cantidadDeDigitosPares(desarmador.getNumber(1)));
 		
 	}
 	
