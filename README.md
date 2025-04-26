@@ -23,10 +23,10 @@ Este repositorio contiene los ejercicios del Trabajo Práctico 3 de OBJ2-UNQ.
 ---
 
 ### Ejercicio 3
-- [ ] Completado  
-- [ ] Tests incluidos  
+- [x] Completado  
+- [x] Tests incluidos  
 
-**Descripción:** (Descripción pendiente)  
+**Descripción:** (Mayor multiplo entre x e y, teniendo como maximo a 1000)  
 
 ---
 
