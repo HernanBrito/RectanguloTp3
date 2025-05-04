@@ -31,10 +31,10 @@ Este repositorio contiene los ejercicios del Trabajo Práctico 3 de OBJ2-UNQ.
 ---
 
 ### Ejercicio 4
-- [ ] Completado  
-- [ ] Tests incluidos  
+- [x] Completado  
+- [x] Tests incluidos  
 
-**Descripción:** (Descripción pendiente)  
+**Descripción:** (En lugar de hacer un archivo test lo probe directamente en un main)  
 
 ---
 
