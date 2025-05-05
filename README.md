@@ -66,10 +66,10 @@ Con las variables de método, hay que poner explícitament͏e los νalores. Si n
 ---
 
 ### Ejercicio 7
-- [ ] Completado  
-- [ ] Tests incluidos  
+- [x] Completado  
+- [/] Tests incluidos  
 
-**Descripción:** (Descripción pendiente)  
+**Descripción:** (Los archivos .class estan igual organizados que los .java pero en la carpeta bin y no en src, esto es para evitar conflictos de nombres, mantener un codigo bien estructurado y que JVM encuentre las clases correctamente durante la ejecución)  
 
 ---
 
