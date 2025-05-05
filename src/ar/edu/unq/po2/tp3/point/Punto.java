@@ -36,8 +36,8 @@ public class Punto {
 		this.y = y;
 	}
 	
-    public Punto sumarPuntos(Punto punto1 , Punto punto2) {
-        return new Punto(punto2.getX() + punto1.getX(), punto2.getY() + punto1.getY());
+    public Punto sumarPunto(Punto punto2) {
+        return new Punto (getX() + punto2.getX(), getY() + punto2.getY());
     }
 
 }

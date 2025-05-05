@@ -5,7 +5,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import ar.edu.unq.po2.tp3.point.Punto;
 
 public class PuntoTest {
 
@@ -56,7 +55,7 @@ public class PuntoTest {
     
     @Test
     public void testSumarPuntos() {
-        Punto resultado = p1.sumarPuntos(p1, p2);
+        Punto resultado = p1.sumarPunto(p2);
         assertEquals(4, resultado.getX()); // 1 + 3
         assertEquals(6, resultado.getY()); // 2 + 4
     }
@@ -64,7 +63,7 @@ public class PuntoTest {
     @Test
     public void testSumarPuntoCero() {
         Punto p0 = new Punto();
-        Punto resultado = p1.sumarPuntos(p1, p0);
+        Punto resultado = p1.sumarPunto(p0);
         assertEquals(p1.getX(), resultado.getX());
         assertEquals(p1.getY(), resultado.getY());
     }
@@ -72,15 +71,15 @@ public class PuntoTest {
     @Test
     public void testSumarPuntosNegativos() {
         Punto pNeg = new Punto(-2, -3);
-        Punto resultado = p1.sumarPuntos(p1, pNeg);
+        Punto resultado = p1.sumarPunto(pNeg);
         assertEquals(-1, resultado.getX()); // 1 + (-2)
         assertEquals(-1, resultado.getY()); // 2 + (-3)
     }
     
     @Test
     public void testSumarPuntosConmutativa() {
-        Punto res1 = p1.sumarPuntos(p1, p2);
-        Punto res2 = p1.sumarPuntos(p2, p1);
+        Punto res1 = p1.sumarPunto(p2);
+        Punto res2 = p1.sumarPunto(p2);
         assertEquals(res1.getX(), res2.getX());
         assertEquals(res1.getY(), res2.getY());
     }
