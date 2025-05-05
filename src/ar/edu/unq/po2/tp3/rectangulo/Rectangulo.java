@@ -1,5 +1,7 @@
 package ar.edu.unq.po2.tp3.rectangulo;
 
+import ar.edu.unq.po2.tp3.point.Punto;
+
 public class Rectangulo {
 	private int base;
 	private int altura;
