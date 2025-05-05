@@ -58,10 +58,10 @@ Con las variables de método, hay que poner explícitament͏e los νalores. Si n
 ---
 
 ### Ejercicio 6
-- [ ] Completado  
-- [ ] Tests incluidos  
+- [x] Completado  
+- [x] Tests incluidos  
 
-**Descripción:** (Descripción pendiente)  
+**Descripción:** (Sumador, restador y multiplicador con sus respectivos test's)  
 
 ---
 
