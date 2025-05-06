@@ -74,18 +74,18 @@ Con las variables de método, hay que poner explícitament͏e los νalores. Si n
 ---
 
 ### Ejercicio 8
-- [ ] Completado  
-- [ ] Tests incluidos  
+- [x] Completado  
+- [x] Tests incluidos  
 
-**Descripción:** (Descripción pendiente)  
+**Descripción:** (Point)  
 
 ---
 
 ### Ejercicio 9
-- [ ] Completado  
-- [ ] Tests incluidos  
+- [x] Completado  
+- [x] Tests incluidos  
 
-**Descripción:** (Descripción pendiente)  
+**Descripción:** (Rectángulo)  
 
 ---
 
