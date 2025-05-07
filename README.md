@@ -90,10 +90,10 @@ Con las variables de método, hay que poner explícitament͏e los νalores. Si n
 ---
 
 ### Ejercicio 10
-- [ ] Completado  
-- [ ] Tests incluidos  
+- [x] Completado  
+- [x] Tests incluidos  
 
-**Descripción:** (Descripción pendiente)  
+**Descripción:** (1) El objeto que le pida la edad a Persona no tiene por qué saber cómo Persona la calcula. El mecanismo de abstracción que utilizamos se llama encapsulamiento, ya que no hacemos público el cómo se calcula la edad y solo exponemos el método.)  
 
 ---
 
