@@ -98,9 +98,9 @@ Con las variables de método, hay que poner explícitament͏e los νalores. Si n
 ---
 
 ### Ejercicio 11
-- [ ] Completado  
-- [ ] Tests incluidos  
+- [x] Completado  
+- [x] Tests incluidos  
 
-**Descripción:** (Descripción pendiente)  
+**Descripción:** (Equipo de trabajo completo!)  
 
----
+---FIN DEL TP!
