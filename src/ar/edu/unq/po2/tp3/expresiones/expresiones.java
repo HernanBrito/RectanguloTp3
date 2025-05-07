@@ -20,7 +20,7 @@ public class expresiones {
 	public static void main(String[] args) {
 		String a = "abc";
 		String s = a;
-		String t;
+		//String t;
 		
 		System.out.println(s.length());
 		System.out.println(1 + a);

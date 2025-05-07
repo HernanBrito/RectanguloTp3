@@ -36,12 +36,13 @@ public class MultiOperador {
 	}
 	
 	public long  multiplicador() {
+		
 		//Utilizo long porque con int en algunos casos podr'ia causar overflow
 		if (listaNums.isEmpty()) return 0;
 		long  multiplicacionTotal = listaNums.get(0);
 		
 		for (int i = 1 ; i < listaNums.size() ; i++) {
-			multiplicacionTotal = multiplicacionTotal + listaNums.get(i);
+			multiplicacionTotal = multiplicacionTotal * listaNums.get(i);
 		}
 		
 		return multiplicacionTotal;
